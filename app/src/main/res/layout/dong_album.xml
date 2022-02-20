@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linear_cardview_album"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<!--imageview hiển thị ảnh album-->
+        <ImageView
+            android:layout_width="200dp"
+            android:id="@+id/image_view_album"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_height="200dp" />
+<!--textview hiển thị tên album-->
+        <TextView
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/textview_ten_album"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Ngay xuan long phung sum vay"
+            android:textSize="20sp"
+            android:maxWidth="200dp"
+            android:layout_height="wrap_content"/>
+<!--textview hiển thị tên ca sĩ-->
+        <TextView
+            android:textSize="15dp"
+            android:maxWidth="200dp"
+            android:textColor="#9e9797"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/textview_tencasi_album"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Hồ Ngọc Hà"
+
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

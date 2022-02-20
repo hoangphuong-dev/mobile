@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:id="@+id/image_view_baihat_hot"
+        android:layout_height="80dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/textview_tenbaihat_hot"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/image_view_baihat_hot"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#363636"
+        android:textSize="18sp"
+        android:text="Tên bài hát"
+        android:layout_height="wrap_content">
+    </TextView>
+    
+    <TextView
+        android:layout_below="@+id/textview_tenbaihat_hot"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/image_view_baihat_hot"
+        android:singleLine="true"
+        android:text="Ca si"
+        android:textSize="18sp"
+        android:textColor="#8c8a8a"
+        android:layout_width="wrap_content"
+        android:id="@+id/textview_casi_baihathot"
+        android:layout_height="wrap_content">
+    </TextView>
+    
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image_view_luotthich"
+        android:src="@drawable/iconlove"
+        android:layout_marginRight="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp">
+
+    </ImageView>
+
+</RelativeLayout>
